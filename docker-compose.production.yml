@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  nginx:
+    image: findsimilar/demo-gateway
+    restart: always
+    ports:
+      - 80:80
